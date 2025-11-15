@@ -7,7 +7,7 @@ The frontend is built with Streamlit, and the backend logic uses LangChain and G
 $$Click here to add your own screenshot\!$$
 
 
-(Run your app, take a screenshot, and drag-and-drop it onto this README in the GitHub editor)
+
 
 ✨ Features
 
