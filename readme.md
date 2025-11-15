@@ -20,7 +20,7 @@ Secure: All API keys and database credentials are securely managed using Streaml
 📂 Project Structure
 
 This is the structure of the project folder:
-
+```
 Text_to_sqlApp/
 ├── .streamlit/
 │   └── secrets.toml    <- (This file is NOT on GitHub, you must create it)
@@ -28,7 +28,7 @@ Text_to_sqlApp/
 ├── requirements.txt    <- All Python libraries needed to run the app
 ├── .gitignore          <- Tells Git to ignore secrets and venv
 └── README.md           <- You are reading this!
-
+```
 
 🛠️ How to Set Up and Run Locally
 
