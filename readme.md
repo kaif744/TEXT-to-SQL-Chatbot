@@ -4,7 +4,9 @@ This project is a fully interactive web application that allows non-technical us
 
 The frontend is built with Streamlit, and the backend logic uses LangChain and Google's Gemini LLM.
 
-[Click here to add your own screenshot!]
+$$Click here to add your own screenshot\!$$
+
+
 (Run your app, take a screenshot, and drag-and-drop it onto this README in the GitHub editor)
 
 ✨ Features
@@ -19,23 +21,16 @@ Secure: All API keys and database credentials are securely managed using Streaml
 
 📂 Project Structure
 
-Here is the file structure for the project.
+This is the structure of the project folder:
 
-Text_to_sqlApp/ (Your main project folder)
+Text_to_sqlApp/
+├── .streamlit/
+│   └── secrets.toml    <- (This file is NOT on GitHub, you must create it)
+├── app.py              <- The main Streamlit application
+├── requirements.txt    <- All Python libraries needed to run the app
+├── .gitignore          <- Tells Git to ignore secrets and venv
+└── README.md           <- You are reading this!
 
-.streamlit/
-
-secrets.toml (Your secret keys, ignored by Git)
-
-app.py (The main Streamlit application)
-
-requirements.txt (All Python libraries)
-
-.gitignore (Tells Git to ignore secrets and venv)
-
-README.md (This file!)
-
-venv/ (Your virtual environment, ignored by Git)
 
 🛠️ How to Set Up and Run Locally
 
