@@ -4,7 +4,10 @@ This project is a fully interactive web application that allows non-technical us
 
 The frontend is built with Streamlit, and the backend logic uses LangChain and Google's Gemini LLM.
 
-Features
+Add your screenshot here by replacing the line below!
+``
+
+✨ Features
 
 Natural Language to SQL: Ask questions like "What was the total line total for Jaxbean Group?" instead of writing complex SQL.
 
@@ -14,7 +17,9 @@ RAG Pipeline: The app uses a prompt-engineered chain (LCEL) to generate accurate
 
 Secure: All API keys and database credentials are securely managed using Streamlit's secrets management.
 
-Project Structure
+📂 Project Structure
+
+This is the structure of the project folder:
 
 Text_to_sqlApp/
 ├── .streamlit/
@@ -39,6 +44,7 @@ A Google AI Studio API Key (for the Gemini model)
 
 2. Clone the Repository
 
+# Replace with your GitHub repo URL
 git clone [https://github.com/YOUR_USERNAME/YOUR_REPOSITORY_NAME.git](https://github.com/YOUR_USERNAME/YOUR_REPOSITORY_NAME.git)
 cd YOUR_REPOSITORY_NAME
 
@@ -64,15 +70,17 @@ pip install -r requirements.txt
 
 You must create a local secrets file to store your credentials.
 
-Create the folder: mkdir .streamlit
+# 1. Create the folder
+mkdir .streamlit
 
-Create the secrets file.
+# 2. Create the secrets file (for Windows)
+copy NUL .streamlit\secrets.toml
 
-Windows: copy NUL .streamlit\secrets.toml
+# 2. Create the secrets file (for macOS/Linux)
+touch .streamlit/secrets.toml
 
-macOS/Linux: touch .streamlit/secrets.toml
 
-Open the secrets.toml file and add your credentials in this format:
+Now, open the .streamlit/secrets.toml file and add your credentials in this format:
 
 # .streamlit/secrets.toml
 
