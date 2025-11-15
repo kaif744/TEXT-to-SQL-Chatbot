@@ -4,9 +4,7 @@ This project is a fully interactive web application that allows non-technical us
 
 The frontend is built with Streamlit, and the backend logic uses LangChain and Google's Gemini LLM.
 
-$$Click here to add your own screenshot\!$$
-
-
+$$screenshot!$$
 
 
 ✨ Features
